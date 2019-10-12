@@ -1,0 +1,72 @@
+body {
+background-color: rgb(253,253,253);
+color: rgb(10,10,10);
+font-family: "Raleway", sans-serif;
+text-align: center;
+}
+
+h1{
+   color: #719192;
+   font-size: 50px;
+}
+
+h2{
+	font-size: 30px;
+	color: #5f6769;
+}
+
+a{
+color: white;
+text-decoration: none;	
+}
+
+a:hover {
+	font-size: 25px;
+	color: #dfcdc3;
+}
+
+
+#banner{
+  text-align: center;
+  background-image: url("images/adventure.jpg");
+  background-size: cover;
+  padding: 150px 5px 170px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+#banner h1 {
+  color: white;
+  font-size: 50px;
+  text-shadow: 1px 1px 5px black;
+}
+
+#banner p {
+  color: white;
+  opacity: 0.9;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#banner a:hover {
+	color: #e6f8f9;
+}
+
+#footer{
+  padding: 25px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+
+#footer a {
+	color: white;
+}
+
+#footer a:hover {
+	color: #719192;
+}
